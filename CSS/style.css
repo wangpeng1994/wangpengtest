@@ -1,0 +1,9 @@
+ @charset "UTF-8";
+ @import "style2.css";
+h1 {
+  color: blue;
+}
+
+/*****
+我是注释
+*****/
