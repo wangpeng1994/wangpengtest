@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>表单</title>
+</head>
+<body>
+  <form action="/login" method="post">
+    <div class="username">
+      <label for="username">用户名</label>
+      <input id="username" type="text" placeholder="username" name="username">
+    </div>
+    <div class="password">
+      <label for="password">密码</label>
+      <input id="password" type="password" placeholder="password" name="password">
+    </div>
+    <div class="sex">
+      <label>性别</label>
+      <input type="radio" name="sex" value="boy" checked>boy
+      <input type="radio" name="sex" value="girl">girl
+    </div>
+    <!-- 如果出了选择性别之外，还要选择性取向，则继续建div块级容器 -->
+    <div class="hobby">
+      <input type="checkbox" name="hobby" value="足球" checked>
+      <input type="checkbox" name="hobby" value="足球">
+    </div>
+
+    <div class="submit">
+      <input type="submit" value="OK">
+    </div>
+
+    <div class="addr">
+      <select name="addr" id="">
+        <option value="shanghai">上海</option>
+        <option value="beijing">北京</option>
+      </select>
+
+    </div>
+    <input type="data">
+    <input type="search">
+    <input type="email" placeholder="邮箱地址">
+    <input type="url">
+    <input type="file">
+    <input type="range">
+    <input type="color">
+    <input type="image">
+    <input type="hidden" name="csrf" value="33errttt">
+    <input type="text">
+    <input type="">
+  </form>  
+</body>
+</html>
