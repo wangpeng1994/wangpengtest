@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  p {
+    color: #f0f;
+    font-family: "微软雅黑", Helvetica;
+    /*单双引号都可以*/
+    font-size: 6px;/*中文chrome浏览器生效吗？*/
+    font-weight: 400; /*字体粗细，细调的时候要看字体库有没有这些等级*/
+    text-align：justify; /*两边对其*/
+    font-size：1.5; /*一般设置1.5，行高为其字体的1.5倍，但也不全是，比如按钮（参考book 单行文本垂直居中）*/
+
+    line-height 好好研究
+    }
+  .ellipsis {
+    white-space: nowrap;超行
+    overflow: hidden;超行隐藏
+    text-overflow: ellipsis; ...折叠符号
+  }
+  
+  ul {
+  	list-style: none;
+  }
+
+  .button {
+  	border: 1px solid red;
+  	padding: 2px 4px;
+  	border-radius: 3px;
+  	text-decoration: none;
+  }
+  .button:hover {
+  	
+  }
+
+  </style>
+</head>
+<body>
+  <p>jirengu </p>
+  <p class="ellipsis"></p>
+
+  <ul>
+  	<li>1</li>
+  	<li>2</li>
+  	<li>3</li>
+  	<li>4</li>
+  </ul>
+  <a class="button" href="#">点我</a>
+
+</body>
+</html>
